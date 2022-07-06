@@ -8,10 +8,11 @@ Run like this:
 > python computeROC.py ~/tmp ./testInputForROC/just_Covid_negativesThrombOrNotWithCore98.txt
 
 input file assumptions:
+# header
+# zero or one, threshold value, sorted. 
 
-is_thrombosis	blank	Total FIXa (pM)
-1	x	46113.54
+is_thrombosis	Total FIXa (pM) 
+1	46113.54
 
-header
-zero or one, dud variable for now, threshold value, sorted. 
-
+To control how many thresholds are printed (numbers may bleed into each other otherwise) check out
+print_x_thresh param, documented in computeROCcommandLine.txt
