@@ -1,2 +1,2 @@
-PYTHONPATH=/w4home/jsteill/bin/Python3.7.4/python/bin/:~rstewart/rms_pkgs/src
+PYTHONPATH=$PYTHONPATH:../rms_pkgs/src/cmdlogtime/
 source .venv/bin/activate
